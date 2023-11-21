@@ -9,6 +9,7 @@ public class App01GamingBasicJava {
 		
 		//var game = new MarioGame();
 		//var game = new SuperContraGame();
+		// test
 		
 		var game = new PacmanGame(); //1: Object Creation
 		
