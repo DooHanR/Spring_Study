@@ -10,6 +10,7 @@ public class App01GamingBasicJava {
 		//var game = new MarioGame();
 		//var game = new SuperContraGame();
 		//this is text
+		//this is test2
 		
 		var game = new PacmanGame(); //1: Object Creation
 		
