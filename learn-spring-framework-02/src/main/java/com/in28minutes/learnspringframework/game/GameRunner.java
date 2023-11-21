@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GameRunner {
-	
+	// test
 	private GamingConsole game;
 	
 	public GameRunner(@Qualifier("SuperContraGameQualifier") GamingConsole game) {
