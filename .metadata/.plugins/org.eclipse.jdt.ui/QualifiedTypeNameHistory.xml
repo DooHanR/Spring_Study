@@ -7,7 +7,13 @@
     <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.d1.ClassB"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableBeanFactory"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="jakarta.annotation.PreDestroy"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.examples.c1.DataService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="jakarta.inject.Named"/>
+    <fullyQualifiedTypeName name="jakarta.inject.Inject"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.in28minutes.learnspringframework.game.GameRunner"/>
 </qualifiedTypeNameHistroy>
