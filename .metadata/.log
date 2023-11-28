@@ -2687,6 +2687,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+<<<<<<< Updated upstream
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2023-11-27 12:49:30.364
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
@@ -2696,6 +2697,9 @@ EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 >>>>>>> Stashed changes
 !SESSION 2023-11-27 12:51:22.295 -----------------------------------------------
+=======
+!SESSION 2023-11-26 22:01:16.301 -----------------------------------------------
+>>>>>>> Stashed changes
 eclipse.buildId=4.29.0.20230907-1200
 java.version=17.0.8.1
 java.vendor=Eclipse Adoptium
@@ -2703,6 +2707,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.emf.ecore 2 0 2023-11-27 12:51:24.996
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
@@ -2794,6 +2799,20 @@ java.lang.Exception
 !ENTRY org.eclipse.jface 2 0 2023-11-27 12:51:28.303
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-11-27 12:51:28.303
+=======
+!ENTRY org.eclipse.emf.ecore 2 0 2023-11-26 22:01:19.074
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-26 22:01:19.336
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-26 22:01:20.645
+!MESSAGE Logback config file: C:\Spring_Study\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-26 22:01:22.736
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-26 22:01:22.737
+>>>>>>> Stashed changes
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -2812,6 +2831,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.egit.ui 2 0 2023-11-27 12:51:30.484
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\dohal'. If this is
@@ -2875,11 +2895,15 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.contexts.window,,,system)
 
 !ENTRY org.eclipse.egit.ui 2 0 2023-11-28 20:04:49.453
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-26 22:01:30.839
+>>>>>>> Stashed changes
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\doo'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< Updated upstream
 
 !ENTRY org.eclipse.ui 4 4 2023-11-28 20:04:55.906
 !MESSAGE Plug-in 'org.eclipse.jdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.jdt.ui.create.module.info.action
@@ -2925,3 +2949,5 @@ java.net.SocketException: Connection reset
 	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:69)
 	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+=======
+>>>>>>> Stashed changes
