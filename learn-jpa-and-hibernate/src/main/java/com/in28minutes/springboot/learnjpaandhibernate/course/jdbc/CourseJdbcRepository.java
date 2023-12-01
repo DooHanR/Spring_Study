@@ -14,39 +14,43 @@ public class CourseJdbcRepository {
 	private JdbcTemplate springJdbcTemplate;
 	
 	private static String INSERT_QUERY = 
+			
 			"""
-			insert into course (id, name, author)
-			values(?, ?, ?);
-			""";
+				insert into course (id, name, author)
+				values(?, ?,?);
 	
+			""";
+
 	private static String DELETE_QUERY = 
+			
 			"""
-			delete from course
-			where id = ?
-			""";
+				delete from course
+				where id = ?
 	
+			""";
+
 	private static String SELECT_QUERY = 
+			
 			"""
-			select * from course
-			where id = ?
+				select * from course
+				where id = ?
+	
 			""";
 	
-	public void insert(com.in28minutes.springboot.learnspringboot.Course course) {
-		springJdbcTemplate.update(INSERT_QUERY,
+	public void insert(Course course) {
+		springJdbcTemplate.update(INSERT_QUERY, 
 				course.getId(), course.getName(), course.getAuthor());
 	}
 	
 	public void deleteById(long id) {
-		springJdbcTemplate.update(DELETE_QUERY, id);
+		springJdbcTemplate.update(DELETE_QUERY,id);
 	}
 	
 	public Course findById(long id) {
+		//ResultSet -> Bean => Row Mapper => 
 		return springJdbcTemplate.queryForObject(SELECT_QUERY,
 				new BeanPropertyRowMapper<>(Course.class), id);
+		
 	}
 
-	public Object findById(int id) {
-		return springJdbcTemplate.queryForObject(SELECT_QUERY,
-				new BeanPropertyRowMapper<>(Course.class), id);
-	}
 }
