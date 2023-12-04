@@ -3,6 +3,6 @@
 		<title>my first Login page</title>
 	</head>
 	<body>
-		Login success!
+		Login success : ${name}!
 	</body>
 </html>
