@@ -15,11 +15,10 @@ public class TodoController {
 		super();
 		this.todoService = todoService;
 	}
-	
+
 	private TodoService todoService;
-
-
-
+		
+	
 	@RequestMapping("list-todos")
 	public String listAllTodos(ModelMap model) {
 		List<Todo> todos = todoService.findByUsername("in28minutes");
@@ -27,4 +26,5 @@ public class TodoController {
 		
 		return "listTodos";
 	}
+
 }

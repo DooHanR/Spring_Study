@@ -2,16 +2,10 @@ package com.in28minutes.springboot.myfirstwebapp.todo;
 
 import java.time.LocalDate;
 
-
-
+//Database (MySQL) 
+//Static List of todos => Database (H2, MySQL)
 
 public class Todo {
-
-	private int id;
-	private String username;
-	private String description;
-	private LocalDate targetDate;
-	private boolean done;
 
 	public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
 		super();
@@ -21,6 +15,12 @@ public class Todo {
 		this.targetDate = targetDate;
 		this.done = done;
 	}
+
+	private int id;
+	private String username;
+	private String description;
+	private LocalDate targetDate;
+	private boolean done;
 
 	public int getId() {
 		return id;
